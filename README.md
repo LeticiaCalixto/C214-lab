@@ -11,10 +11,10 @@ Linguagem usada:
 <br>
 Aulas:
 
-  - 1º aula: Exercício Veículos
+  - 1º aula: <a href="https://github.com/LeticiaCalixto/C214/tree/lab/Veiculo" target="_blank"> Exercício Veículos </a>
   
-  - 2º aula: Exercício Calculadora
+  - 2º aula: <a href="https://github.com/LeticiaCalixto/C214/tree/lab/Calculadora" target="_blank"> Exercício Calculadora </a>
   
-  - 3º aula: Criar repositório no git
+  - 3º aula: <a href="https://github.com/LeticiaCalixto/C214/tree/lab" target="_blank"> Criar repositório no git </a>
   
-  - 4º aula: Editar o README
+  - 4º aula: <a href="https://github.com/LeticiaCalixto/C214/blob/main/README.md" target="_blank"> Editar o README </a>
