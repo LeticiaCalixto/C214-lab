@@ -19,4 +19,4 @@ Aulas:
   
   - 4º aula: <a href="https://github.com/LeticiaCalixto/C214/blob/main/README.md" target="_blank"> Editar o README </a>
 
-  - 12º aula: <a href="https://github.com/LeticiaCalixto/C214/blob/main/README.md" target="_blank"> CRUD React </a>
+  - 12º aula: <a href="https://github.com/LeticiaCalixto/C214/tree/lab/React-CRUD" target="_blank"> CRUD React </a>
