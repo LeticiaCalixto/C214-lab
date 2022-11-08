@@ -15,10 +15,7 @@ Esse repositório, consiste na implementação de um CRUD de usuários no qual s
 ## 🧩 Como executar <a name="Como-executar"></a>
 1. Utilizando o terminal do Git Bash, clone o repositório em sua máquina através do seguinte comando:
     ```
-    $ git clone https://github.com/IagoCB/basic-API.git
-    ```
-    ```
-    $ git clone git@github.com:IagoCB/basic-API.git
+    $ git clone https://github.com/LeticiaCalixto/C214.git
     ```
 
 2. No diretório do projeto, utilize o comando a seguir para instalar as dependências:
