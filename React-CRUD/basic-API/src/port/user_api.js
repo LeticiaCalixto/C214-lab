@@ -19,10 +19,7 @@ module.exports = (app) => {
         res.status(Utils.responseStatus(response.name));
         res.json(response);
     });
-    app.get(`${route}/listUser/:email`, async (req, res) => {
-        const data = req.body;
-        const { email } = req.params;
-        data.email = email;
+    app.patch(`${route}/listUser`, async (req, res) => {
         const response = await User.listByEmail(req.body);
         res.status(Utils.responseStatus(response.name));
         res.json(response);

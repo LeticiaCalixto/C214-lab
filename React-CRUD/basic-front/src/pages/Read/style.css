@@ -71,7 +71,6 @@ form button{
 
 .form-profile input:disabled{
     cursor: not-allowed;
-
 }
 
 .form-profile button{
@@ -87,4 +86,40 @@ form button{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.table {
+    padding: 10px;
+    margin: 10px 40px 10px;
+    width: 500px;
+    background-color:transparent;
+    box-shadow: 0px 2px 3px#121212;
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+    color: #121212;
+    font-size: 15px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #181C2E;
+}
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #181C2E;
 }

@@ -33,7 +33,7 @@ const ClientUsers = {
 
     async readUser(data) {
         try {
-            const response = await client.get(`${userPath}/listUser/${data.email}`);
+            const response = await client.patch(`${userPath}/listUser`, data);
             return response;
         } catch (e) {
             return e;

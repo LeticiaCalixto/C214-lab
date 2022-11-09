@@ -11,6 +11,7 @@ import './style.css';
 
 export default function Read() {
 
+    const [user, setUsers] = useState([]);
     const [email, setEmail] = useState('');
 
     async function handleRead(e) {
@@ -21,9 +22,10 @@ export default function Read() {
         }
 
         const update = await ClientUsers.readUser(data);
-        console.log('update', update);
+        
         if (update.status === 200) {
-            toast.success('Usuário encontrado!');
+            setUsers(update.data)
+            toast.success('Usuário encontrado com sucesso!');
         } else {
             toast.error('Ops algo deu errado!');
         }
@@ -45,6 +47,27 @@ export default function Read() {
                         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
 
                         <button type="submit">Listar</button>
+
+                        <div class="table">
+                            <table class="fl-table">
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    {user && 
+                                        <tr key={1}>
+                                            <td>{user.nome} </td>
+                                            <td>{user.email} </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+
                     </form>
                 </div>
 
