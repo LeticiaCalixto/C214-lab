@@ -35,7 +35,7 @@ Esse comando irá criar uma pasta coverage, dentro da pasta de testes, onde é p
 
 **IDE**: [Visual Studio Code](https://code.visualstudio.com/)
 
-**Linguagem**: [TypeScript](https://www.typescriptlang.org/)
+**Linguagem**: [JavaScript](https://www.javascript.com)
 
 **Gerenciamento de dependências**: [npm](https://www.npmjs.com)
 
