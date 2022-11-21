@@ -19,10 +19,10 @@ describe('Calculator tests - Happy way', () => {
 
 })
 
-describe('Calculator tests - Sadness way', () => {
+// describe('Calculator tests - Sadness way', () => {
    
-    test('sum 1 + 2 not 1', () => {
-        expect(calculator.sum(1,2)).not.toBe(1);
-    })
+//     test('div 6 / 0', () => {
+//         expect(calculator.div(6,0)).toThrow(Error);
+//     })
 
-})
+// })
