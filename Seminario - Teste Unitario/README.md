@@ -26,7 +26,7 @@ npm i
 # 🚀 Tests
 É possível rodar testes usando o comando:
 ```
-npm test
+npm test -- --coverage
 ```
 
 Esse comando irá criar uma pasta coverage, dentro da pasta de testes, onde é possível observar a cobetura dos testes do projeto.
